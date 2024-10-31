@@ -1,0 +1,19 @@
+#partners {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.partner {
+    display: inline-block;
+    margin: 10px;
+}
+
+.partner-logo {
+    width: 200px; 
+    height: auto;
+}

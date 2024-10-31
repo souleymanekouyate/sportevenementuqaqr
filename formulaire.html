@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Contact" content="tous sur nos renseignement">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="../projr ii1/CSS/formulaire.css">
+</head>
+<body>
+    <section id="registration">
+        <h2>Formulaire d'Inscription</h2>
+        
+        <form id="registrationForm">
+            <fieldset>
+                <legend>Informations Personnelles</legend>
+                <label for="firstName">Prénom :</label>
+                <input type="text" id="firstName" name="firstName" required>
+    
+                <label for="lastName">Nom :</label>
+                <input type="text" id="lastName" name="lastName" required>
+    
+                <label for="gender">Sexe :</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Choisir...</option>
+                    <option value="male">Homme</option>
+                    <option value="female">Femme</option>
+                    <option value="other">Autre</option>
+                </select>
+    
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="address">Adresse postale :</label>
+                <input type="text" id="address" name="address" required>
+    
+                <label for="email">Adresse courriel :</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Informations Professionnelles</legend>
+                <label for="company">Entreprise/Organisation :</label>
+                <input type="text" id="company" name="company" required>
+    
+                <label for="jobTitle">Titre du poste :</label>
+                <input type="text" id="jobTitle" name="jobTitle" required>
+    
+                <label for="industry">Secteur d’activité :</label>
+                <input type="text" id="industry" name="industry" required>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Billet et Paiement</legend>
+                <label for="ticketType">Type de billet :</label>
+                <select id="ticketType" name="ticketType" required>
+                    <option value="" disabled selected>Choisir...</option>
+                    <option value="standard">Billet Standard - 50€</option>
+                    <option value="vip">Billet VIP - 100€</option>
+                    <option value="student">Billet Étudiant - 30€</option>
+                </select>
+    
+                <label for="promoCode">Code promo :</label>
+                <input type="text" id="promoCode" name="promoCode">
+    
+                <label for="paymentMethod">Mode de paiement :</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                    <option value="" disabled selected>Choisir...</option>
+                    <option value="creditCard">Carte de Crédit</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+            </fieldset>
+    
+            <div class="buttons">
+                <button type="submit">Soumettre</button>
+                <button type="reset"><strong>Réinitialiser</strong></button>
+            </div>
+        </form>
+    
+        <h3>Liste des Premiers Prix</h3>
+        <div class="prix">
+           
+                <li>Premier Prix de Marathon - 1000$</li>
+                <li> Premier Prix de velo- 1500$</li>
+                <li>Premier Prix de Natation- 1800$</li>
+             
+        </div>
+    </section>
+<a href="./index.html"> Revenir a l'acceuil</a>
+
+</body>
+</html>
